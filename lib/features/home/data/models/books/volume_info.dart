@@ -5,8 +5,8 @@ import 'panelization_summary.dart';
 import 'reading_modes.dart';
 
 class VolumeInfo {
-  String? title;
-  List<String>? authors;
+  String? title;/////
+  List<String>? authors;//////
   String? publisher;
   String? publishedDate;
   String? description;
@@ -15,13 +15,13 @@ class VolumeInfo {
   int? pageCount;
   int? printedPageCount;
   Dimensions? dimensions;
-  String? printType;
+  String? printType;////
   List<String>? categories;
   String? maturityRating;
   bool? allowAnonLogging;
   String? contentVersion;
   PanelizationSummary? panelizationSummary;
-  ImageLinks? imageLinks;
+  ImageLinks? imageLinks;/////
   String? language;
   String? previewLink;
   String? infoLink;

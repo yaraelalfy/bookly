@@ -1,4 +1,5 @@
 import 'package:bookly/core/utils/styles.dart';
+import 'package:bookly/features/home/presentation/views/widgets/bestseller_list.dart';
 import 'package:bookly/features/home/presentation/views/widgets/list.dart';
 import 'package:flutter/material.dart';
 
@@ -10,9 +11,10 @@ class items extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal:20,vertical: 10),
       child: const Row(
-        //crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(height:100,width: 150,),
+          //SizedBox(child:BestSeller_list()),
+          SizedBox(width: 155,height: 120,child: BestSeller_list(),),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

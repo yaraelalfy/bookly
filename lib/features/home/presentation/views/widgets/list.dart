@@ -15,7 +15,7 @@ class list extends StatelessWidget {
             //height: 224,
             decoration: BoxDecoration(
               color: Colors.red,
-              borderRadius: BorderRadius.circular(16), // تعديل الحواف كما ترغب
+              borderRadius: BorderRadius.circular(16),
             ),
             child: Image.asset(AssetsData.testImage),
 
