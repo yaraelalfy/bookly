@@ -14,7 +14,7 @@ class items extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           //SizedBox(child:BestSeller_list()),
-          SizedBox(width: 155,height: 120,child: BestSeller_list(),),
+          SizedBox(width: 160,height: 125,child: BestSeller_list(),),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -24,7 +24,7 @@ class items extends StatelessWidget {
               const Row(
                 children: [
                   Text("\$19.99",style: Styles.textStyle_20,),
-                  SizedBox(width: 25,),
+                  SizedBox(width: 27,),
                   Row(
                     children: [
                       Icon(Icons.star,color: Colors.yellow,),

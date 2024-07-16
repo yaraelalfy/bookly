@@ -8,7 +8,7 @@ class home_screen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body:home_body() ,
-     // backgroundColor:  Color(0xff100B20),
+      backgroundColor:  Color(0xff100B20),
     );
   }
 }
