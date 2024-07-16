@@ -15,7 +15,7 @@ class _SplashBodyState extends State<SplashBody> with SingleTickerProviderStateM
   @override
   void initState() {
     super.initState();
-    animationController = AnimationController(vsync: this, duration: Duration(seconds: 3));
+    animationController = AnimationController(vsync: this, duration: Duration(seconds: 2));
     slidingAnimation = Tween<Offset>(begin: Offset(-1.5, 20), end: Offset.zero).animate(animationController);
     slidingAnimation2 = Tween<Offset>(begin: Offset(1.5, -7), end: Offset.zero).animate(animationController);
     animationController.forward();
@@ -32,7 +32,7 @@ class _SplashBodyState extends State<SplashBody> with SingleTickerProviderStateM
                 position: slidingAnimation,
                 child: Text(
                   "Read Free Books",
-                  style: TextStyle(color: Colors.white),
+                 // style: TextStyle(color: Colors.white),
                 )))
       ],
     );

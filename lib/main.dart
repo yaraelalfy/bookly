@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+//import 'package:google_fonts/google_fonts.dart';
 
 import 'features/splash/presentation/views/splash_screen.dart';
 
@@ -11,8 +12,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: SplashScreen(),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: const SplashScreen(),
+      theme: ThemeData.dark(),
+      //theme: ThemeData.dark().copyWith(textTheme: GoogleFonts.montserratTextTheme(ThemeData.dark().textTheme)),
     );
   }
 }
